@@ -1,0 +1,65 @@
+{
+  "learners": [
+    {
+      "learner_id": "L-1001",
+      "role": "Cloud Engineer",
+      "certification": "AZ-900",
+      "practice_score_avg": 67,
+      "hours_studied": 18,
+      "exam_outcome": "Fail"
+    },
+    {
+      "learner_id": "L-1002",
+      "role": "DevOps Engineer",
+      "certification": "AZ-204",
+      "practice_score_avg": 82,
+      "hours_studied": 24,
+      "exam_outcome": "Pass"
+    },
+    {
+      "learner_id": "L-1003",
+      "role": "Data Engineer",
+      "certification": "DP-203",
+      "practice_score_avg": 74,
+      "hours_studied": 20,
+      "exam_outcome": "Pass"
+    }
+  ],
+  "work_signals": [
+    {
+      "employee_id": "EMP-001",
+      "meeting_hours_per_week": 22,
+      "focus_hours_per_week": 10,
+      "preferred_learning_slot": "Morning"
+    },
+    {
+      "employee_id": "EMP-002",
+      "meeting_hours_per_week": 15,
+      "focus_hours_per_week": 18,
+      "preferred_learning_slot": "Afternoon"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "AZ-900",
+      "name": "Azure Fundamentals",
+      "skills": ["Cloud Concepts", "Azure Services", "Security & Compliance"],
+      "recommended_hours": 20,
+      "pass_threshold": 70
+    },
+    {
+      "id": "AZ-204",
+      "name": "Azure Developer Associate",
+      "skills": ["API Development", "Azure Functions", "Storage Solutions"],
+      "recommended_hours": 25,
+      "pass_threshold": 75
+    },
+    {
+      "id": "DP-203",
+      "name": "Azure Data Engineer Associate",
+      "skills": ["Data Pipelines", "Azure Synapse", "Data Governance"],
+      "recommended_hours": 30,
+      "pass_threshold": 75
+    }
+  ]
+}
